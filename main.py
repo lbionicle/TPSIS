@@ -4,7 +4,6 @@ from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from pydantic import BaseModel
 from typing import List, Type
 from datetime import datetime, timedelta
-import jwt
 from sqlalchemy.orm import Session
 
 app = FastAPI()
